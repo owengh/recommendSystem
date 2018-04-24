@@ -37,5 +37,12 @@ public class SalesOrder {
 	public void setPayAmount(String payAmount) {
 		this.payAmount = payAmount;
 	}
+
+	@Override
+	public String toString() {
+		return "SalesOrder [id=" + id + ", orderNo=" + orderNo + ", payAmount=" + payAmount + "]";
+	}
+	
+	
 	
 }

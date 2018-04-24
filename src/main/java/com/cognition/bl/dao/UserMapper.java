@@ -1,13 +1,12 @@
 package com.cognition.bl.dao;
 
 import org.mybatis.spring.annotation.MapperScan;
-
 import com.cognition.bl.domain.SalesOrder;
 
 
-@MapperScan 
+@MapperScan
 public interface UserMapper {
 	
-//	public SalesOrder findById(String orderNO );
+	public SalesOrder findById(String orderNO );
 
 }
